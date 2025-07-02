@@ -14,7 +14,8 @@ body {
          flex-direction: row;
          justify-self: end;
          padding: 5px 0;
-                  color: black;
+         
+                 
      
 }
 
@@ -97,23 +98,35 @@ a {
          
      }    
     .ft1 {
-         display: flex;
-         flex-direction: row;
-         justify-self: center;
-         padding: 10px 0 0 0;
-         margin: auto;
-         color: black;
-         ;
+           display: flex;
+           justify-self: center;
+               align-items: center;
+               padding: 0 100px 0 100px;
+               margin: 10px;
+           font-style: italic;
+              ;
      }
 
      .ft {
-         display: flex;
-         flex-direction: row;
-         justify-self: center;
-         padding: 10px;
-         width: 100%;
-         color: black;
-         gap: 20px;
+          
+           align-items: center;
+           justify-self: center;
+           padding: 10px 0 0 0;
+               font-style: italic;
+         
+           
+                             
      }
 
+     .ft2 {
+           display: flex; 
+           justify-content: space-between;         
+            justify-self: center;           
+           align-items: center;
+           font-style: italic;
+           
+              
+       
+         
+     }
    
