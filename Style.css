@@ -13,6 +13,8 @@ width: 100%;
 height: 100%;
 display: flex;
 flex-direction: column;
+justify-content: space-around;
+
 }
 
 .header {
@@ -20,8 +22,7 @@ flex-direction: column;
          flex-direction: row;
          justify-content: end;
          padding: 5px 0;
-         
-                            
+         font-size: 14px;                  
      
 }
 
@@ -45,28 +46,27 @@ a {
      flex-direction: column;
      align-items: center;
      justify-content: space-between;
-     gap: 30px;
+     gap: 20px;
      
     
 }
 .logo {
-     display: flex;
-     gap: 2px;
-    padding: 150px 0 0 0;
-     font-size: 40px;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       display: flex;
+       gap: 1px;
+       padding: 150px 0 0 0;
+       font-size: 30px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
  
     input {
-         width: 600px;
-         height: 25px;
-         padding: 10px;
-                  border-radius: 20px;
-         border: 1px solid #776b6b;
-                  font-size: 16px;
-        
-
+                width: 400px;
+                height: 25px;
+                padding: 10px;
+                  border-radius: 40px;
+                 border: 1px solid #776b6b;
+                  font-size: 14px;
+     
              }
 
     input:focus {
@@ -80,8 +80,7 @@ a {
          height: 40px;
          border-radius: 5px;
          border: none;
-         font-size: 14px;
-       
+         font-size: smaller;
          cursor: pointer;
          box-shadow: 0 2px 4px rgba(68, 54, 54, 0.1);
     }
@@ -94,42 +93,43 @@ a {
     h4 {
          font-size: 14px;
          margin: 150px 0 0 0;
-        
          padding:  10px;
          color: black;
          border-bottom: #96a2b1 1px solid;
         
-         
-     }    
+    }
+
+    .footer {
+     display: flex ;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 9px ;
+     font-size: 13px;
+     
+    }
+
+    .ft0 {
+      display: flex ;
+      justify-self: left;
+                
+    }
+
+    .ft {
+     display: flex 1;
+     flex-direction: row;
+     justify-self: center;
+    }
+
     .ft1 {
-           display: flex;
-           justify-self: center;
-               align-items: center;
-                 margin: 10px;
-           
-              ;
-     }
+     display: flex;
+     justify-self: end;
+     align-items: center;
+    }
 
-     .ft {
-          
-           align-items: center;
-           justify-self: center;
-           padding: 10px 0 0 0;
-               
-         
-           
-                             
-     }
-
-     .ft2 {
-           display: flex; 
-           justify-content: space-between;         
-            justify-self: center;           
-           align-items: center;
-          
-           
-              
-       
-         
-     }
-   
+    img{
+     display: flex;
+     flex-direction: row;
+     width: 25px;
+     
+     
+    }
