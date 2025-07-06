@@ -1,3 +1,4 @@
+/* for screen less than 768x wide */
 * {
     margin: 0;
     padding: 0;
@@ -11,18 +12,20 @@ width: 100%;
 
 .main {
 height: 100%;
+flex-wrap: wrap;
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 
 }
 
 .header {
          display: flex;
+         padding-top: 10px;
          flex-direction: row;
          justify-content: end;
-         padding: 5px 0;
-         font-size: 14px;                  
+         font-size: 14px;
+                      
      
 }
 
@@ -41,11 +44,11 @@ a {
      justify-content: space-between;
 }
 
+
 .container {
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: space-between;
      gap: 20px;
      
     
@@ -53,7 +56,7 @@ a {
 .logo {
        display: flex;
        gap: 1px;
-       padding: 150px 0 0 0;
+       margin-top: 90px;
        font-size: 30px;
        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
@@ -80,7 +83,7 @@ a {
          height: 40px;
          border-radius: 5px;
          border: none;
-         font-size: smaller;
+         font-size: 14px;
          cursor: pointer;
          box-shadow: 0 2px 4px rgba(68, 54, 54, 0.1);
     }
@@ -102,34 +105,41 @@ a {
     .footer {
      display: flex ;
      flex-direction: row;
+     justify-content: center;
      justify-content: space-between;
-     padding: 9px ;
-     font-size: 13px;
+    width: 100%;
+    flex-wrap: wrap;
+     font-size: 14px;
+    align-items: center;
+    padding: 10px;
+    
      
     }
 
     .ft0 {
       display: flex ;
-      justify-self: left;
-                
+      justify-content: center;
+      padding: 10px;   
+          
     }
 
     .ft {
      display: flex 1;
      flex-direction: row;
-     justify-self: center;
+     width: cover;
+         
     }
 
     .ft1 {
      display: flex;
      justify-self: end;
-     align-items: center;
-    }
+     
+       }
 
-    img{
-     display: flex;
-     flex-direction: row;
-     width: 25px;
-     
-     
+    img {
+         height: 25px;
+         gap: 10px;
+         vertical-align: middle;
+
+     ;
     }
